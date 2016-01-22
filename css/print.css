@@ -1,0 +1,77 @@
+/* Printing Stylesheet */
+
+button, .general-buttons, h1 {
+    display: none;
+}
+
+.scene-wrapper {
+    /*page-break-after: always;*/
+    page-break-inside: avoid;
+}
+
+.full-form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.right-align {
+    text-align: right;
+    margin-bottom: 2em;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    display: block;
+}
+
+textarea {
+    margin-bottom: 0.5em;
+}
+
+textarea[name="voiceoverContent"] {
+    min-height: 5em;
+}
+
+input[name="sceneTitle"] {
+    width: 95%;
+}
+
+.right-align input {
+    width: 30%;
+    display: inline-block;
+}
+
+label {
+    vertical-align: top;
+    text-align: right;
+}
+
+.scene-number {
+    float: left;
+    padding-right: 1em;
+    clear: left;
+}
+
+.logo {
+    float: left;
+    margin: 0 0 1em;
+}
+
+.scene {
+    margin-bottom: 1.5em;
+}
+
+.drawing-area {
+    height: 350px;
+    position: relative;
+    border: 1px solid #444;
+    width: 600px;
+}
+
+.drawingCode, .wPaint-menu {
+    display: none;
+}

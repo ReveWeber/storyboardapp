@@ -1,0 +1,59 @@
+/* Print View Page Stylesheet */
+
+.scene {
+    margin-bottom: 2em;
+    clear: both;
+    page-break-inside: avoid;
+}
+
+.drawing-area {
+    height: 350px;
+    position: relative;
+    border: 1px solid #444;
+    width: 600px;
+    margin-bottom: 1em;
+}
+
+.drawingCode, .wPaint-menu, .error-area {
+    display: none;
+}
+
+.printing-sb-header {
+    float: left;
+    width: 45%;
+    margin-bottom: 2em;
+}
+
+text-url {
+    font-family: monospace;
+}
+
+.printing-scene-header strong {
+    font-size: 124%;
+}
+
+.printing-scene-header {
+    margin-bottom: 1em;
+}
+
+.printing-scene-info {
+    margin-bottom: 1em;
+}
+
+.login-form {
+    width: 250px;
+    margin-left: 164px;
+    margin-top: 3em;
+}
+
+.login-button {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 1.5em;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 1em;
+}

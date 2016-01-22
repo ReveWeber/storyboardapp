@@ -1,0 +1,361 @@
+/*
+Colors!
+dk green #3f5701
+gray-green #969945
+cream #FFFFDE
+orange #fe8508
+red #f00601
+*/
+
+input {
+    max-width: 600px;
+}
+
+button {
+    display: block;
+}
+
+a, a:visited, a:link {
+    color: #3f5701;
+}
+
+a:hover {
+    color: #fe8508;
+}
+
+a:active {
+    color: #f00601;
+}
+
+.login-form a {
+    text-decoration: none;
+}
+
+.main-menu .inactive, .greyed, .main-menu .inactive a, .inactive {
+    color: #969945;
+}
+
+.storyboard-wrapper {
+    clear: both;
+    margin: 2em;
+}
+
+/*.general-buttons {
+    display: table-cell;
+    padding-right: 3em;
+}
+
+.general-buttons button {
+    margin: 0 4em 1em;
+    width: 110px;
+    display: block;
+}*/
+
+.message-box {
+    height: 4em;
+    padding-left: 3em;
+    padding-top: 0.75em;
+    color: #f00601;
+    font-weight: bold;
+}
+
+.sorting-wrapper, .password-reset-wrapper {
+    width: 600px;
+    margin: 2em;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.right-align input {
+    width: 80%;
+}
+
+.logo {
+    float: left;
+    border-radius: 3em;
+    margin: 0 2em 0.75em;
+}
+
+.inline-elt {
+    display: inline;
+}
+
+.scene-number {
+    margin-left: -2em;
+}
+
+.scene-collapser {
+    margin-left: -2.5em;
+    margin-top: 0.5em;
+}
+
+.scene-delete {
+    margin-right: -2.5em;
+    margin-top: -3.25em;
+    float: right;
+    position: relative;
+}
+
+/*.main-menu a,*/ .header-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.new-scene-button {
+    text-align: right;
+    margin-right: -2.5em;
+}
+
+.scene {
+    margin-top: -3.25em;
+    margin-bottom: 1.5em;
+}
+
+.scene-wrapper {
+    margin-bottom: 3em;
+}
+
+.scene-delete i,
+.scene-collapser i {
+    text-align: center;
+    border-radius: 2em;
+    background: #fe8508;
+    width: 1em;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.new-scene-button button {
+    width: 150px;
+}
+
+.drawing-area {
+    height: 350px;
+    position: relative;
+    border: 1px solid #444;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.drawingCode {
+    display: none;
+}
+
+.sortable-placeholder {
+    height: 3em;
+    margin-bottom: 2em;
+    border: 1px solid #f00601;
+}
+
+.sort-message {
+    margin-bottom: 2em;
+}
+
+.login-form {
+    width: 250px;
+    margin-left: 164px;
+    margin-top: 3em;
+}
+
+.login-button {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 1.5em;
+}
+
+.logout-button {
+    width: 5em;
+}
+
+input[type="radio"],
+.board-selection p {
+    display: inline;
+    width: auto;
+}
+
+.board-selection {
+    clear: both;
+    margin-left: 164px;
+    width: 600px;
+}
+
+.load-board-button {
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 1em;
+}
+
+.board-selection label {
+    display: block;
+}
+
+.main-menu,
+.main-menu ul {
+    padding: 1em;
+    list-style-type: none;
+}
+
+.main-menu > li {
+    display: inline-block;
+    padding: 0 2em 0;
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    width: 125%;
+    border: 1px solid #fe8508;
+    padding-bottom: 2em;
+    background: #FFFFDE;
+    margin-top: .5em;
+}
+
+.submenu li {
+    padding: 0.75em;
+}
+
+.header-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 0.75em;
+    z-index: 100;
+    background: #FFFFDE;
+}
+
+.main-body-wrapper {
+    margin-top: 170px;
+}
+
+.error-area {
+    color: crimson;
+    margin-left: 164px;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+}
+
+.board-header-wrapper {
+    width: 50%;
+    margin-left: 25%;
+    text-align: right;
+}
+
+.board-header input {
+    width: 80%;
+}
+
+.shrink-and-backup {
+    font-size: 85%;
+    margin-left: -.5em;
+    vertical-align: super;
+    color: #555;
+}
+
+.user-info-table tr td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+.user-info-table tr td:last-child {
+    padding-left: 1em;
+}
+
+.user-info-table td {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    vertical-align: text-bottom;
+}
+
+.user-info-table .top-border td {
+    border-top: 1px solid black;
+}
+
+.new-acct-form {
+    width: 500px;
+    padding: 0 3em;
+}
+
+.new-acct-form input {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.login-form ul {
+    list-style: none;
+    text-align: right;
+}
+
+.login-form li {
+    padding: 1em 0;
+}
+
+.submessage {
+    font-variant: small-caps;
+    vertical-align: super;
+    color: #3f5701;
+    /*background: black;*/
+    padding: 0 0.25em;
+}
+
+.green {
+    color: #3f5701;
+}
+
+.read-only .scene {
+    margin-bottom: 2em;
+    clear: both;
+    page-break-inside: avoid;
+}
+
+.read-only .drawing-area {
+    height: 350px;
+    position: relative;
+    border: 1px solid #444;
+    width: 600px;
+    margin-bottom: 1em;
+}
+
+.read-only .drawingCode, .read-only .wPaint-menu, .read-only .error-area {
+    display: none;
+}
+
+.printing-sb-header {
+    float: left;
+    width: 45%;
+    margin-bottom: 2em;
+}
+
+text-url {
+    font-family: monospace;
+}
+
+.printing-scene-header strong {
+    font-size: 124%;
+}
+
+.printing-scene-header {
+    margin-bottom: 1em;
+}
+
+.printing-scene-info {
+    margin-bottom: 1em;
+}
